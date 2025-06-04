@@ -22,8 +22,6 @@ public class UserMapping {
         return UserDto.builder()
                 .id(entity.getId())
                 .email(entity.getEmail())
-                .createTime(entity.getCreateTime())
-                .updateTime(entity.getUpdateTime())
                 .build();
     }
 

@@ -23,10 +23,4 @@ public class UserEntity {
 
     private String email;
     private String password;
-
-    @CreationTimestamp
-    private Timestamp createTime;
-
-    @UpdateTimestamp
-    private Timestamp updateTime;
 }
